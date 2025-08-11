@@ -12,7 +12,7 @@ jobs:
     steps:
       - run: pacman -Sy
       - run: pacman -S  --noconfirm base-devel nodejs rustup python python-pytorch python-torchvision python-gobject opencv clang dpkg git git-lfs
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           lfs: true
       - run: rustup toolchain install nightly
