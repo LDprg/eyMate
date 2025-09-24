@@ -69,7 +69,7 @@ whoami = "1.5.2"
 clap = "4.5.31"
 anyhow = "1.0.97"
 figment = { version = "0.10.19", features = ["toml"] }
-opencv = { version = "0.94.2", features = ["clang-runtime"] }
+opencv = { version = "0.96.0", features = ["clang-runtime"] }
 serde = "1.0.218"
 tch = "0.19.0"
 toml = "0.8.20"
